@@ -1,4 +1,5 @@
 body {
+
     margin: 64px 199px;
 }
 
@@ -10,8 +11,7 @@ body {
     margin: auto;
 
    
-    display: flex;
-    flex-direction: column;
+   
     text-align: center;
   
     
@@ -48,6 +48,7 @@ h1 {
 }    
 
  p {
+
     color: #828282;
     font-weight: 400;
     font-size: 15px;
@@ -77,3 +78,44 @@ h1 {
     
 }
 
+footer {
+
+    border: 1px solid red;
+
+    width: 1024px;
+    height: 176px;
+
+    margin: 64px auto;
+
+    display: flex;
+    flex-direction: row;
+    gap: 42px;
+    justify-content: center;
+
+
+    
+    
+}
+
+footer p {
+
+    color: #3f3d56;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 22.15px;
+    
+
+}
+
+footer img {
+
+    width: 1024px;
+    height: 104px;
+
+    position: absolute;
+    transform: translateY(70%);
+
+
+    
+}
