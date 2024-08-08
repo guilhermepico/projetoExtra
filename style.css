@@ -1,9 +1,5 @@
-* {
-
-    padding: 0;
-    margin: 64px 199px 240px 199px;
-    box-sizing: border-box;
-    
+body {
+    margin: 64px 199px;
 }
 
 
@@ -11,10 +7,13 @@
 
     width: 626px;
     height: 486px;
-    
-
     margin: auto;
-    padding: 0 72px 64px;
+
+   
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  
     
     
     
@@ -30,3 +29,51 @@ img {
 
     display: block;
 }
+
+h1 {
+
+    color: #3f3d56;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 40.45px;
+    font-family: "Dosis", sans-serif;
+    
+    
+    
+}
+
+#destino {
+
+    color: #ee24ff;
+}    
+
+ p {
+    color: #828282;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    font-family: "Open Sans", sans-serif;
+    
+   
+}
+
+
+
+#pacotes {
+
+    color: #3f3d56;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 22px;
+
+}
+
+#flutuar {
+    
+    color: #828282;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 22px;
+    
+}
+
